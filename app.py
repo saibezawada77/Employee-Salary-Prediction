@@ -4,7 +4,7 @@ import joblib
 
 model = joblib.load("best_model.pkl")
 
-st.set_page_config(page_title = "Employee Salary Classification", page_icons ="💼", layout="centered")
+st.set_page_config(page_title = "Employee Salary Classification", page_icon ="💼", layout="centered")
 
 st.title("💼 Employee Salary Classification App")
 st.markdown("Predict whether an employee earns >50k or <50k based on input features.")
